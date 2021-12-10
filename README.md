@@ -38,7 +38,7 @@ Jan Andreasen - [@andreasen_jan](https://twitter.com/andreasen_jan) - jan@tved.i
 Project Link: [https://github.com/jaa2019/SerialLogger](https://github.com/jaa2019/SerialLogger)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
+<!--
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/jaa2019/SerialLogger/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
@@ -52,3 +52,4 @@ Project Link: [https://github.com/jaa2019/SerialLogger](https://github.com/jaa20
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: 
 [product-screenshot]: images/screenshot.png
+-->
