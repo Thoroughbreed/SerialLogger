@@ -1,9 +1,9 @@
 
 # SerialLogger 
-[![Contributors][contributors-shield]][https://github.com/jaa2019/SerialLogger/graphs/contributors]
-[![Forks][forks-shield]][https://github.com/jaa2019/SerialLogger/network/members]
-[![Stargazers][stars-shield]][https://github.com/jaa2019/SerialLogger/stargazers]
-[![Issues][issues-shield]][https://github.com/jaa2019/SerialLogger/issues]
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
 ### What is this?
 SerialLogger is a very lightweight and simple logging application, built as an extra feature of the
@@ -37,18 +37,21 @@ Jan Andreasen - [@andreasen_jan](https://twitter.com/andreasen_jan) - jan@tved.i
 
 Project Link: [https://github.com/jaa2019/SerialLogger](https://github.com/jaa2019/SerialLogger)
 <p align="right">(<a href="#top">back to top</a>)</p>
-
+[![Contributors][contributors-shield]][]
+[![Forks][forks-shield]][]
+[![Stargazers][stars-shield]][]
+[![Issues][issues-shield]][]
 
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[contributors-url]: https://github.com/jaa2019/SerialLogger/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[forks-url]: https://github.com/jaa2019/SerialLogger/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[stars-url]: https://github.com/jaa2019/SerialLogger/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[issues-url]: https://github.com/jaa2019/SerialLogger/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-url]: 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: 
 [product-screenshot]: images/screenshot.png
