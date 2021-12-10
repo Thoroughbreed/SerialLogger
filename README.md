@@ -1,9 +1,9 @@
 
 # SerialLogger 
-[![Contributors][contributors-shield]][contributors-url]
+<!--[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+[![Issues][issues-shield]][issues-url]-->
 
 ### What is this?
 SerialLogger is a very lightweight and simple logging application, built as an extra feature of the
@@ -37,10 +37,7 @@ Jan Andreasen - [@andreasen_jan](https://twitter.com/andreasen_jan) - jan@tved.i
 
 Project Link: [https://github.com/jaa2019/SerialLogger](https://github.com/jaa2019/SerialLogger)
 <p align="right">(<a href="#top">back to top</a>)</p>
-[![Contributors][contributors-shield]][]
-[![Forks][forks-shield]][]
-[![Stargazers][stars-shield]][]
-[![Issues][issues-shield]][]
+
 
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/jaa2019/SerialLogger/graphs/contributors
