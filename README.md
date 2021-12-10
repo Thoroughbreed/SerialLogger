@@ -1,5 +1,9 @@
 
-# SerialLogger
+# SerialLogger 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
 ### What is this?
 SerialLogger is a very lightweight and simple logging application, built as an extra feature of the
