@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "bRE4N45vpv9FwWcXXe1wbV+8bl7m17r3i/Y6Sl2PX8JH9jO8ETVrYdujpdic6YLMUqAuf92STZ3n2u2bm0SIQQ==",
+  "success": true,
+  "projectFilePath": "/Users/janandreasen/RiderProjects/SerialLog/SerialLog/SerialLog.csproj",
+  "expectedPackageFiles": [
+    "/Users/janandreasen/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "/Users/janandreasen/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "/Users/janandreasen/.nuget/packages/runtime.linux-arm.runtime.native.system.io.ports/6.0.0/runtime.linux-arm.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "/Users/janandreasen/.nuget/packages/runtime.linux-arm64.runtime.native.system.io.ports/6.0.0/runtime.linux-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "/Users/janandreasen/.nuget/packages/runtime.linux-x64.runtime.native.system.io.ports/6.0.0/runtime.linux-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "/Users/janandreasen/.nuget/packages/runtime.native.system.io.ports/6.0.0/runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "/Users/janandreasen/.nuget/packages/runtime.osx-arm64.runtime.native.system.io.ports/6.0.0/runtime.osx-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "/Users/janandreasen/.nuget/packages/runtime.osx-x64.runtime.native.system.io.ports/6.0.0/runtime.osx-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "/Users/janandreasen/.nuget/packages/system.io.ports/6.0.0/system.io.ports.6.0.0.nupkg.sha512",
+    "/Users/janandreasen/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/janandreasen/.nuget/packages/system.security.accesscontrol/5.0.0/system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "/Users/janandreasen/.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
