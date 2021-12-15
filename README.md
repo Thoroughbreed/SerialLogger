@@ -1,10 +1,9 @@
-
-# SerialLogger
 ![build succeeded][build-shield]
 ![Test passing][test-shield]
 [![Issues][issues-shield]][issues-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
+# SerialLogger
 
 ### What is this?
 SerialLogger is a very lightweight and simple logging application, built as an extra feature of the
