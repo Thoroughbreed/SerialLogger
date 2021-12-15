@@ -1,8 +1,14 @@
-![build succeeded][build-shield]
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+<!--![build succeeded][build-shield]
 ![Test passing][test-shield]
 [![Issues][issues-shield]][issues-url]
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
+[![Forks][forks-shield]][forks-url]-->
 # SerialLogger
 
 ### What is this?
