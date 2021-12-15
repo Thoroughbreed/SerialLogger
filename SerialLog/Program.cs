@@ -16,6 +16,7 @@ namespace SerialLog
         private static int _s = 1;
         private static Parity P;
         private static StopBits S;
+        private static string _input;
 
         static void Main(string[] args)
         {
@@ -28,9 +29,10 @@ namespace SerialLog
                 if (args.Length > 4) int.TryParse(args[4], out D);
                 if (args.Length > 5) int.TryParse(args[5], out _s);
             }
-
             P = (Parity)_p;
             S = (StopBits)_s;
+            
+            Continue();
 
             try
             {
@@ -62,7 +64,12 @@ namespace SerialLog
                 Console.WriteLine("Do you want to continue with those values?");
                 Console.WriteLine("[Y]es or [N]o");
                 inputKey = Console.ReadKey(true);
-                if (inputKey.Key == ConsoleKey.Y || inputKey.Key == ConsoleKey.N) brk = true;
+                if (inputKey.Key == ConsoleKey.Y) brk = true;
+                else if (inputKey.Key == ConsoleKey.N)
+                {
+                    ChangeValues();
+                    brk = true;
+                }
             } while (brk == false);
         }
 
@@ -81,21 +88,84 @@ namespace SerialLog
                 {
                     case ConsoleKey.F:
                         Console.WriteLine("Enter new filename (leave blank to keep it)");
-                        string _input = Console.ReadLine();
+                        _input = Console.ReadLine();
                         if (!string.IsNullOrWhiteSpace(_input))
                         {
                             fileName = _input;
                         }
                         break;
                     case ConsoleKey.C:
+                        Console.WriteLine("Enter new COM-port (only number! - leave blank to keep it)");
+                        _input = Console.ReadLine();
+                        if (!string.IsNullOrWhiteSpace(_input))
+                        {
+                            C = "COM" + _input;
+                        }
                         break;
                     case ConsoleKey.B:
+                        Console.WriteLine("Enter new BAUD-rate (only number! - leave blank to keep it)");
+                        _input = Console.ReadLine();
+                        if (!string.IsNullOrWhiteSpace(_input))
+                        {
+                            int.TryParse(_input, out B);
+                        }
                         break;
                     case ConsoleKey.P:
+                        Console.WriteLine("Select parity bit (press enter to keep it)");
+                        Console.WriteLine("[N]one\n[O]dd\n[E]ven\n[M]ark\n[S]pace");
+                        ConsoleKeyInfo x = Console.ReadKey(true);
+                        switch (x.Key)
+                        {
+                            case ConsoleKey.N:
+                                P = (Parity)0;
+                                break;
+                            case ConsoleKey.O:
+                                P = (Parity)1;
+                                break;
+                            case ConsoleKey.E:
+                                P = (Parity)2;
+                                break;
+                            case ConsoleKey.M:
+                                P = (Parity)3;
+                                break;
+                            case ConsoleKey.S:
+                                P = (Parity)4;
+                                break;
+                            default:
+                                break;
+                        }
                         break;
                     case ConsoleKey.D:
+                        Console.WriteLine("Enter data bits (leave blank to keep it)");
+                        _input = Console.ReadLine();
+                        int y;
+                        if (!string.IsNullOrWhiteSpace(_input))
+                        {
+                            int.TryParse(_input, out y);
+                            if (y <= 8 && y >= 5) D = y;
+                        }
                         break;
                     case ConsoleKey.S:
+                        Console.WriteLine("Select stop bit (press enter to keep it)");
+                        Console.WriteLine("[N]one\n[O]One\n[T]wo\nOne[P]ointFive");
+                        ConsoleKeyInfo z = Console.ReadKey(true);
+                        switch (z.Key)
+                        {
+                            case ConsoleKey.N:
+                                S = (StopBits)0;
+                                break;
+                            case ConsoleKey.O:
+                                S = (StopBits)1;
+                                break;
+                            case ConsoleKey.T:
+                                S = (StopBits)2;
+                                break;
+                            case ConsoleKey.P:
+                                S = (StopBits)3;
+                                break;
+                            default:
+                                break;
+                        }
                         break;
                     case ConsoleKey.X:
                         brk = true;
