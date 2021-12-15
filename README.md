@@ -22,9 +22,18 @@ The application is fairly straightforward and takes 5 (five) arguments in total:
 
 If you launch the application without any arguments, it will fallback to default values. 
 However, if you want to launch it with arguments the following is valid:
-`SerialLog.exe eventlog.txt COM3 115200 0 8 1`
+`SerialLog.exe eventlog.txt 3 115200 0 8 1`
+
+Before the application starts listening, you can now validate the settings (and change them if needed)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+### Changelog
+| Version | Change |
+|-|-|
+| 0.0.5 | First release, using arguments / fallback to default |
+| 0.1.0 | Added simple menu to change values if no or incorrect arguments were given. Added control logic to limit input of databits |
+| 0.1.1 | Added a friendly exception message |
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### License
 * Software: GPLv3
