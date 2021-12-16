@@ -1,9 +1,9 @@
-
-# SerialLogger 
-<!--[![Contributors][contributors-shield]][contributors-url]
+![Build succeeded][build-shield]
+![Test passing][test-shield]
+[![Issues][issues-shield]][issues-url]
+[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]-->
+# SerialLogger
 
 ### What is this?
 SerialLogger is a very lightweight and simple logging application, built as an extra feature of the
@@ -47,18 +47,14 @@ Jan Andreasen - [@andreasen_jan](https://twitter.com/andreasen_jan) - jan@tved.i
 Project Link: [https://github.com/jaa2019/SerialLogger](https://github.com/jaa2019/SerialLogger)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!--
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[build-shield]: https://img.shields.io/badge/Build-succeeded-brightgreen.svg
+[test-shield]: https://img.shields.io/badge/Tests-passing-brightgreen.svg
+[contributors-shield]: https://img.shields.io/badge/Contributors-2-brightgreen.svg
 [contributors-url]: https://github.com/jaa2019/SerialLogger/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/badge/Forks-0-blue.svg
 [forks-url]: https://github.com/jaa2019/SerialLogger/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/jaa2019/SerialLogger/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/badge/Issues-0-brightgreen.svg
 [issues-url]: https://github.com/jaa2019/SerialLogger/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: 
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: 
-[product-screenshot]: images/screenshot.png
--->
