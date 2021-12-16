@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialLog", "SerialLog\SerialLog.csproj", "{D551C420-1658-4BAC-B4C7-E97CC77C184D}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialLog", "SerialLog\SerialLog.csproj", "{5AF318C3-1672-49C8-8E38-DF7A0A93284E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D551C420-1658-4BAC-B4C7-E97CC77C184D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D551C420-1658-4BAC-B4C7-E97CC77C184D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D551C420-1658-4BAC-B4C7-E97CC77C184D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D551C420-1658-4BAC-B4C7-E97CC77C184D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF318C3-1672-49C8-8E38-DF7A0A93284E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF318C3-1672-49C8-8E38-DF7A0A93284E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF318C3-1672-49C8-8E38-DF7A0A93284E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF318C3-1672-49C8-8E38-DF7A0A93284E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2806E12-4322-4094-A0DA-9C089D49165F}
 	EndGlobalSection
 EndGlobal
