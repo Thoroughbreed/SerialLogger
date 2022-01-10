@@ -4,7 +4,7 @@ using System.IO.Ports;
 
 namespace SerialLog
 {
-    class Program
+    public class SerialLogger
     {
         private static ConsoleKeyInfo inputKey;
         private static bool brk;
