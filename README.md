@@ -63,6 +63,6 @@ Project Link: [https://github.com/jaa2019/SerialLogger](https://github.com/jaa20
 [issues-shield]: https://img.shields.io/github/issues/jaa2019/SerialLogger.svg?style=badge
 [issues-url]: https://github.com/jaa2019/SerialLogger/issues
 [license-shield]: https://img.shields.io/github/license/jaa2019/SerialLogger.svg?style=badge
-[license-url]: https://github.com/jaa2019/SerialLogger/blob/master/LICENSE.txt
+[license-url]: https://github.com/jaa2019/SerialLogger/blob/master/LICENSE
 [twitter-shield]: https://img.shields.io/twitter/follow/andreasen_jan?style=social
 [twitter-url]: https://twitter.com/andreasen_jan
